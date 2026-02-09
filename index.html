@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sneha Annamareddy | Java Developer</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header>
-    <h1>Sneha Annamareddy</h1>
-    <p>Java Developer | Spring Boot | REST APIs</p>
+    <nav class="navbar">
+      <div class="logo">Sneha Annamareddy</div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#work">My Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <h3>Straight Line - a Personal Finance Management App</h3>
-        <p>Spring Boot, MySQL, REST APIs</p>
-        <a href="https://github.com/sneha-verse/">GitHub</a>
-      </li>
-    </ul>
-  </section>
+  <main>
+    <section class="intro" id="home">
+      <img src="assets/profile.jpg" alt="Sneha Verse" class="profile-pic" />
+      <h1>Hello, I’m Sneha Annamareddy</h1>
+      <p>Senior Java Developer | Spring Boot | REST APIs</p>
+      <p>Email: <a href="mailto:snehaachowdary2@gmail.com">snehaachowdary2@gmail.com</a></p>
+      <a href="resume.pdf" target="_blank" class="btn">Download Resume</a>
+    </section>
 
+    <section id="resume" class="section">
+      <h2>Resume</h2>
+      <p><em>You can embed or link your detailed resume here.</em></p>
+      <!-- Optional embed or link to PDF -->
+      <a href="resume.pdf" target="_blank" class="btn">Open Resume PDF</a>
+    </section>
+
+    <section id="work" class="section">
+      <h2>My Work</h2>
+      <p>Highlight your Java projects here.</p>
+      <!-- Example project card -->
+      <div class="project-card">
+        <h3>Employee Management System</h3>
+        <p>Spring Boot, MySQL, REST APIs</p>
+        <a href="https://github.com/sneha-verse/employee-management" target="_blank">View on GitHub</a>
+      </div>
+      <!-- Add more projects -->
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out!</p>
+      <p>Email: <a href="mailto:sneha@example.com">sneha@example.com</a></p>
+      <!-- Optional contact form or social links -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
