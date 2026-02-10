@@ -1,5 +1,21 @@
+.navbar {
+  background-color: #5B3F8E;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+.typography {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
 body {
-    background: linear-gradient(to bottom right, #000000, #800080);
-    background-image: url('texture.png'); /* Replace with the actual texture URL */
-    background-size: cover;
+  background: #232323;
+  background-image: url('texture.png'); /* Add your texture image here */
+  background-size: cover;
+  color: #FFFFFF;
 }
